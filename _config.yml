@@ -1,0 +1,64 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site title
+title: "在水一方博客"
+
+# A description of your site for social meta tag, search engines, and feed.xml
+description: "蒹葭苍苍，白露为霜。所谓伊人，在水一方。溯洄从之，道阻且长。溯游从之，宛在水中央。"
+
+# The subpath of your site, e.g. /blog, for generating urls
+baseurl:
+
+# The base hostname & protocol of your site for where absolute urls are needed
+url: "http://127.0.0.1:4000/"
+
+# The favicon of your site
+favicon: /assets/images/favicon.jpg
+
+# Site navigation - each item must have a title and a url.
+navigation:
+- text: Home
+  url: /
+- text: Archives
+  url: /tags/
+- text: Research
+  url: /research/
+
+# The shortname for your Disqus site to enable comments.
+disqus:
+
+# Author information - author info at the bottom of the post
+author_name: "Anjun Chu"
+author_bio: "Anjun is a physics PhD student in University of Colorado Boulder."
+author_url:
+author_location: "Guangdong, China"
+author_image: /assets/images/authorimage.jpg
+
+# Social links in the site footer
+twitter_username:
+facebook_username: 
+github_username:
+pinterest_username:
+instagram_username:
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: '/page:num/'
+plugins: [jekyll-paginate]
+
+# Permalinks
+permalink: /:title
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
