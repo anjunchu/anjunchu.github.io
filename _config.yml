@@ -27,7 +27,7 @@ navigation:
 - text: Archives
   url: /tags/
 - text: Research
-  url: /research/
+  url: /research.html
 
 # The shortname for your Disqus site to enable comments.
 disqus:
