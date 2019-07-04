@@ -1,6 +1,6 @@
 # My Personal Website
 
-I construct my personal website based on [Jekyll](https://jekyllrb.com/), using Scriptor theme from [JustGoodThemes](https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme).
+I construct my personal website [https://anjunchu.github.io/](https://anjunchu.github.io/) based on [Jekyll](https://jekyllrb.com/), using Scriptor theme from [JustGoodThemes](https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme).
 
 ## Deployment
 
