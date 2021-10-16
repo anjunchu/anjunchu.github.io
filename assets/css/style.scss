@@ -313,6 +313,19 @@
     padding-left: 0;
 }
 
+/* Wrapper */
+.wrapper {
+  width: 300px;
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.unwrapper {
+  width: 100%;
+  float: left;
+}
+
 /* ==========================================================================
    6. Comments
    ========================================================================== */

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<main class="main-content">
+    <article class="post">
+        <div class="unwrapper">
+        <div class="wrapper">
+              <img
+                width="250" height="250"
+                src="{{ page.profile_picture.src | absolute_url }}"
+                alt="{{ page.profile_picture.alt }}"
+                class="profile-pic"
+              /> 
+        </div>
+        <div>   
+            <p><strong>Anjun Chu</strong> is currently a 4th-year physics PhD student in <a href="https://jila.colorado.edu/arey/">Professor Rey’s theory group</a> at University of Colorado Boulder, USA. He received his BSc degree in Physics at Tsinghua University, China. His research interests lie in the theory of quantum simulation, quantum metrology and quantum information in the context of AMO and condensed matter systems. </p>   
+        </div>
+        <div class="unwrapper"><hr></div>
+        </div>
+        <div class="entry-content">
+            {{content}}
+        </div><!-- .entry-content -->
+    </article><!-- .post -->
+</main><!-- .site-main -->
