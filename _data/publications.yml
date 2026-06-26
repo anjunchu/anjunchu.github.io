@@ -1,0 +1,53 @@
+- title: "Quantum enhanced cavity QED interferometer with partially delocalized atoms in lattices"
+  authors: "**Anjun Chu**, Peiru He, James K. Thompson, and Ana Maria Rey"
+  venue: "arXiv:2104.04204"
+  year: 2021
+  status: "Preprint"
+  doi:
+  arxiv: https://arxiv.org/abs/2104.04204
+  pdf: /assets/pdfs/2104.04204.pdf
+  supplement:
+  selected: true
+  tags:
+    - Quantum metrology
+    - Cavity QED
+- title: "Observing the polarization of cosmic-ray muons in student physics laboratory"
+  authors: "Jisi Xu, **Anjun Chu**, Zi Yuan, Xinliang Song, Tianle Cheng, Han Yi, Yijie Wang, Ying Chang, Zhao Zhang, and Zhigang Xiao"
+  venue: "European Journal of Physics 42, 035603"
+  year: 2021
+  status: "Published"
+  doi: https://doi.org/10.1088/1361-6404/abd87f
+  arxiv:
+  pdf: /assets/pdfs/Xu_2021_Eur._J._Phys._42_035603.pdf
+  supplement:
+  selected: false
+  tags:
+    - Physics education
+    - Cosmic rays
+- title: "Simulation of XXZ Spin Models using Sideband Transitions in Trapped Bosonic Gases"
+  authors: "**Anjun Chu**, Johannes Will, Jan Arlt, Carsten Klempt, and Ana Maria Rey"
+  venue: "Physical Review Letters 125, 240504"
+  year: 2020
+  status: "Published"
+  doi: https://doi.org/10.1103/PhysRevLett.125.240504
+  arxiv:
+  pdf: /assets/pdfs/PhysRevLett.125.240504.pdf
+  supplement: /assets/pdfs/SM%20of%20PhysRevLett.125.240504.pdf
+  selected: true
+  tags:
+    - Quantum simulation
+    - Spin models
+- title: "Observation of dynamical quantum phase transitions in a spinor condensate"
+  authors: "H.-X. Yang, T. Tian, Y.-B. Yang, L.-Y. Qiu, H.-Y. Liang, **A.-J. Chu**, C. B. Dag, Y. Xu, Y. Liu, and L.-M. Duan"
+  venue: "Physical Review A 100, 013622"
+  year: 2019
+  status: "Published"
+  doi: https://doi.org/10.1103/PhysRevA.100.013622
+  arxiv:
+  pdf: /assets/pdfs/PhysRevA.100.013622.pdf
+  supplement:
+  selected: false
+  tags:
+    - Quantum simulation
+    - Dynamical phase transitions
+

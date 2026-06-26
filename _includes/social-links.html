@@ -1,0 +1,10 @@
+{% assign profile = site.data.profile %}
+<div class="{% if include.compact %}social-links compact{% else %}social-links{% endif %}">
+  {% if profile.email %}
+    <a href="mailto:{{ profile.email }}">Email</a>
+  {% endif %}
+  {% for link in profile.links %}
+    <a href="{{ link.url }}">{{ link.label }}</a>
+  {% endfor %}
+</div>
+

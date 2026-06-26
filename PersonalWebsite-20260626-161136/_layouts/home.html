@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% assign profile = site.data.profile %}
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ profile.title }}</p>
+      <h1>{{ profile.name }}</h1>
+      <p class="hero-summary">{{ profile.summary }}</p>
+      <div class="interest-row" aria-label="Research interests">
+        {% for interest in profile.research_interests %}
+          <span>{{ interest }}</span>
+        {% endfor %}
+      </div>
+      {% include social-links.html %}
+    </div>
+    <figure class="profile-figure">
+      <img src="{{ profile.image | relative_url }}" alt="{{ profile.image_alt }}">
+      <figcaption>{{ profile.affiliation }}</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="container two-column">
+    <div class="prose">
+      {{ content }}
+    </div>
+    <aside class="sidebar-block" aria-labelledby="news-heading">
+      <h2 id="news-heading">Recent News</h2>
+      {% include news-list.html limit=4 %}
+    </aside>
+  </div>
+</section>
+
