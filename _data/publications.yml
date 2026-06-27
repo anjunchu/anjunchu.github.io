@@ -13,7 +13,7 @@
     - theory-work
     - quantum-metrology
 - title: "Reconfigurable dissipative entanglement between many spin ensembles: from robust quantum sensing to many-body state engineering"
-  authors: "**Anjun Chu**, Mikhail Mamaev, Martin Koppenhoefer, Ming Yuan, and Aashish A. Clerk"
+  authors: "**Anjun Chu**, Mikhail Mamaev, Martin Koppenhöfer, Ming Yuan, and Aashish A. Clerk"
   venue: "Physical Review X 16, 021047"
   year: 2026
   status: "Published"
@@ -31,7 +31,7 @@
     - open-quantum-systems
     - cavity-qed
 - title: "Extracting information from a superradiant burst using simple measurements"
-  authors: "Federico Belliardo, **Anjun Chu**, Martin Koppenhoefer, and Aashish A. Clerk"
+  authors: "Federico Belliardo, **Anjun Chu**, Martin Koppenhöfer, and Aashish A. Clerk"
   venue: "arXiv:2603.13130"
   year: 2026
   status: "Preprint"
@@ -135,7 +135,7 @@
     - quantum-metrology
     - optical-clock
 - title: "Time-resolved spectral gap spectroscopy in a quantum simulator of fermionic superfluidity inside an optical cavity"
-  authors: "Dylan J. Young, Eric Yilun Song, **Anjun Chu**, Diego Barberena, Zhijing Niu, Vera M. Schaefer, Robert J. Lewis-Swan, Ana Maria Rey, and James K. Thompson"
+  authors: "Dylan J. Young, Eric Yilun Song, **Anjun Chu**, Diego Barberena, Zhijing Niu, Vera M. Schäfer, Robert J. Lewis-Swan, Ana Maria Rey, and James K. Thompson"
   venue: "Physical Review Letters 134, 183404"
   year: 2025
   status: "Published"
@@ -180,7 +180,7 @@
     - open-quantum-systems
     - cavity-qed
 - title: "Hamiltonian engineering of collective XYZ spin models in an optical cavity"
-  authors: "Chengyi Luo, Haoqing Zhang, **Anjun Chu**, Chitose Maruko, Ana Maria Rey, and James K. Thompson"
+  authors: "Chengyi Luo†, Haoqing Zhang†, **Anjun Chu**, Chitose Maruko, Ana Maria Rey, and James K. Thompson"
   venue: "Nature Physics 21, 916"
   year: 2025
   status: "Published"
@@ -195,7 +195,7 @@
     - quantum-simulation
     - cavity-qed
 - title: "Many-body gap protection of motional dephasing of an optical clock transition"
-  authors: "Zhijing Niu, Vera M. Schaefer, Haoqing Zhang, Cameron Wagner, Nathan R. Taylor, Dylan J. Young, Eric Yilun Song, **Anjun Chu**, Ana Maria Rey, and James K. Thompson"
+  authors: "Zhijing Niu, Vera M. Schäfer, Haoqing Zhang, Cameron Wagner, Nathan R. Taylor, Dylan J. Young, Eric Yilun Song, **Anjun Chu**, Ana Maria Rey, and James K. Thompson"
   venue: "Physical Review Letters 134, 113403"
   year: 2025
   status: "Published"
@@ -272,7 +272,7 @@
     - quantum-metrology
     - cavity-qed
 - title: "Observing dynamical phases of BCS superconductors in a cavity QED simulator"
-  authors: "Dylan J. Young, **Anjun Chu** (equal contribution), Eric Yilun Song, Diego Barberena, David Wellnitz, Zhijing Niu, Vera M. Schaefer, Robert J. Lewis-Swan, Ana Maria Rey, and James K. Thompson"
+  authors: "Dylan J. Young†, **Anjun Chu**†, Eric Yilun Song, Diego Barberena, David Wellnitz, Zhijing Niu, Vera M. Schäfer, Robert J. Lewis-Swan, Ana Maria Rey, and James K. Thompson"
   venue: "Nature 625, 679"
   year: 2024
   status: "Published"
@@ -303,7 +303,7 @@
     - quantum-simulation
     - cavity-qed
 - title: "Photon-mediated correlated hopping in a synthetic ladder"
-  authors: "**Anjun Chu**, Asier Pineiro Orioli, Diego Barberena, James K. Thompson, and Ana Maria Rey"
+  authors: "**Anjun Chu**, Asier Piñeiro Orioli, Diego Barberena, James K. Thompson, and Ana Maria Rey"
   venue: "Physical Review Research 5, L022034"
   year: 2023
   status: "Published"
@@ -319,7 +319,7 @@
     - quantum-simulation
     - cavity-qed
 - title: "Bosonic pair production and squeezing for optical phase measurements in long-lived dipoles coupled to a cavity"
-  authors: "Bhuvanesh Sundar, Diego Barberena, Asier Pineiro Orioli, **Anjun Chu**, James K. Thompson, Ana Maria Rey, and Robert J. Lewis-Swan"
+  authors: "Bhuvanesh Sundar, Diego Barberena, Asier Piñeiro Orioli, **Anjun Chu**, James K. Thompson, Ana Maria Rey, and Robert J. Lewis-Swan"
   venue: "Physical Review Letters 130, 113202"
   year: 2023
   status: "Published"
@@ -334,7 +334,7 @@
     - quantum-metrology
     - cavity-qed
 - title: "Hamiltonian engineering of spin-orbit-coupled fermions in a Wannier-Stark optical lattice clock"
-  authors: "Alexander Aeppli, **Anjun Chu**, Tobias Bothwell (equal contribution), Colin J. Kennedy, Dhruv Kedar, Peiru He, Ana Maria Rey, and Jun Ye"
+  authors: "Alexander Aeppli†, **Anjun Chu**†, Tobias Bothwell†, Colin J. Kennedy, Dhruv Kedar, Peiru He, Ana Maria Rey, and Jun Ye"
   venue: "Science Advances 8, eadc9242"
   year: 2022
   status: "Published"

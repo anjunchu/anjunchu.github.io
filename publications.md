@@ -6,3 +6,5 @@ permalink: /publications/
 ---
 
 {% include publication-list.html filters=true %}
+
+†These authors contributed equally.
