@@ -2,7 +2,9 @@
 <ol class="news-list">
   {% for item in site.data.news limit: limit %}
     <li>
-      <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%Y.%m.%d" }}</time>
+      <time datetime="{{ item.date | date: '%Y-%m-%d' }}">
+        {% if item.display_date %}{{ item.display_date }}{% else %}{{ item.date | date: "%Y.%m.%d" }}{% endif %}
+      </time>
       {% if item.url %}
         <a href="{{ item.url }}">{{ item.text }}</a>
       {% else %}
@@ -11,4 +13,3 @@
     </li>
   {% endfor %}
 </ol>
-

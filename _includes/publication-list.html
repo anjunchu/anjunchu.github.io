@@ -1,6 +1,28 @@
 {% assign shown = 0 %}
 {% assign limit = include.limit | default: 999 %}
-<div class="publication-list">
+{% if include.filters %}
+  <div class="publication-filter-panel" data-publication-filters>
+    <div class="publication-filter-buttons" aria-label="Publication filters">
+      {% for filter in site.data.publication_filters %}
+        <button
+          type="button"
+          class="publication-filter-button {% if forloop.first %}is-active{% endif %}"
+          {% if filter.type == "all" %}
+            data-filter-type="all"
+          {% elsif filter.type == "selected" %}
+            data-filter-type="selected"
+          {% else %}
+            data-filter-type="group"
+            data-filter-group="{{ filter.group }}"
+          {% endif %}
+        >
+          {{ filter.label }}
+        </button>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+<div class="publication-list" {% if include.filters %}data-publication-list{% endif %}>
   {% for pub in site.data.publications %}
     {% assign should_show = true %}
     {% if include.selected and pub.selected != true %}
@@ -8,11 +30,17 @@
     {% endif %}
     {% if should_show and shown < limit %}
       {% assign shown = shown | plus: 1 %}
-      <article class="publication {% if pub.selected %}is-selected{% endif %}">
+      <article
+        class="publication {% if pub.selected %}is-selected{% endif %}"
+        {% if include.filters %}
+          data-publication-item
+          data-selected="{% if pub.selected %}true{% else %}false{% endif %}"
+          data-groups="{% if pub.groups %}{{ pub.groups | join: ' ' }}{% endif %}"
+        {% endif %}
+      >
         <div class="publication-meta">
           <span>{{ pub.year }}</span>
           {% if pub.status %}<span>{{ pub.status }}</span>{% endif %}
-          {% if pub.selected %}<span>Selected</span>{% endif %}
         </div>
         <h2>{{ pub.title }}</h2>
         <p class="authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
@@ -21,16 +49,51 @@
           {% if pub.doi %}<a href="{{ pub.doi }}">DOI</a>{% endif %}
           {% if pub.arxiv %}<a href="{{ pub.arxiv }}">arXiv</a>{% endif %}
           {% if pub.pdf %}<a href="{{ pub.pdf | relative_url }}">PDF</a>{% endif %}
-          {% if pub.supplement %}<a href="{{ pub.supplement | relative_url }}">Supplement</a>{% endif %}
+          {% if pub.supplement %}<a href="{{ pub.supplement | relative_url }}">Supp</a>{% endif %}
+          {% if pub.news %}<a href="{{ pub.news | relative_url }}">News</a>{% endif %}
         </div>
-        {% if pub.tags %}
-          <div class="tag-row">
-            {% for tag in pub.tags %}
-              <span>{{ tag }}</span>
-            {% endfor %}
-          </div>
-        {% endif %}
       </article>
     {% endif %}
   {% endfor %}
 </div>
+{% if include.filters %}
+  <p class="publication-filter-empty" data-publication-empty hidden>No publications match this filter.</p>
+  <script>
+    (function () {
+      var panel = document.currentScript.previousElementSibling.previousElementSibling;
+      while (panel && !panel.matches("[data-publication-filters]")) {
+        panel = panel.previousElementSibling;
+      }
+      if (!panel) return;
+      var buttons = Array.prototype.slice.call(panel.querySelectorAll("[data-filter-type]"));
+      var list = panel.nextElementSibling;
+      var empty = list ? list.nextElementSibling : null;
+      if (!list) return;
+      var items = Array.prototype.slice.call(list.querySelectorAll("[data-publication-item]"));
+
+      function showFor(button) {
+        var type = button.getAttribute("data-filter-type");
+        var group = button.getAttribute("data-filter-group");
+        var visible = 0;
+        buttons.forEach(function (item) {
+          item.classList.toggle("is-active", item === button);
+        });
+        items.forEach(function (item) {
+          var groups = (item.getAttribute("data-groups") || "").split(/\s+/);
+          var match = type === "all" ||
+            (type === "selected" && item.getAttribute("data-selected") === "true") ||
+            (type === "group" && groups.indexOf(group) !== -1);
+          item.hidden = !match;
+          if (match) visible += 1;
+        });
+        if (empty) empty.hidden = visible !== 0;
+      }
+
+      buttons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          showFor(button);
+        });
+      });
+    })();
+  </script>
+{% endif %}

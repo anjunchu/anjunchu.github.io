@@ -9,7 +9,7 @@
   --line: #dfe7e3;
   --accent: #0f766e;
   --accent-dark: #0b4f4a;
-  --highlight: #b7791f;
+  --highlight: #0f766e;
   --soft: #edf6f4;
   --shadow: 0 18px 45px rgba(23, 32, 29, 0.08);
   --radius: 8px;
@@ -205,12 +205,17 @@ img {
 
 .social-links a,
 .publication-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
   border: 1px solid rgba(15, 118, 110, 0.24);
   border-radius: var(--radius);
   background: var(--surface);
   color: var(--accent-dark);
   font-weight: 720;
-  padding: 8px 12px;
+  line-height: 1;
+  padding: 0 12px;
   text-decoration: none;
 }
 
@@ -264,7 +269,7 @@ img {
 }
 
 .page-header h1 {
-  font-size: clamp(2.25rem, 7vw, 4.6rem);
+  font-size: clamp(2rem, 5.5vw, 3.6rem);
 }
 
 .page-description {
@@ -292,6 +297,14 @@ img {
 
 .prose h2 {
   margin: 34px 0 12px;
+}
+
+.prose > h2:first-child {
+  margin-top: 0;
+}
+
+.two-column .prose > h2:first-child {
+  margin-top: 22px;
 }
 
 .prose h3 {
@@ -378,6 +391,7 @@ img {
 }
 
 .publication-list,
+.research-highlight-list,
 .talk-list,
 .post-list {
   display: grid;
@@ -385,7 +399,44 @@ img {
   margin-top: 18px;
 }
 
+.publication-filter-panel {
+  margin: 0 0 22px;
+}
+
+.publication-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.publication-filter-button {
+  border: 1px solid rgba(15, 118, 110, 0.24);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--accent-dark);
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 750;
+  padding: 8px 11px;
+}
+
+.publication-filter-button:hover,
+.publication-filter-button:focus,
+.publication-filter-button.is-active {
+  border-color: var(--accent);
+  background: var(--soft);
+}
+
+.publication-filter-empty {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--muted);
+  padding: 18px;
+}
+
 .publication,
+.research-highlight,
 .talk,
 .post-preview {
   border: 1px solid var(--line);
@@ -394,9 +445,72 @@ img {
   padding: 22px;
 }
 
+.research-highlight {
+  display: grid;
+  gap: 18px;
+}
+
 .publication.is-selected {
   border-color: rgba(15, 118, 110, 0.45);
   box-shadow: 0 14px 36px rgba(15, 118, 110, 0.1);
+}
+
+.research-highlight.is-selected {
+  border-color: rgba(15, 118, 110, 0.38);
+}
+
+.research-highlight-media {
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--highlight-image-bg, #071827);
+}
+
+.research-highlight-media img,
+.research-highlight-placeholder {
+  width: 100%;
+  border-radius: var(--radius);
+}
+
+.research-highlight-media img {
+  display: block;
+  max-height: 520px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.research-highlight-placeholder {
+  display: grid;
+  place-items: center;
+  min-height: 260px;
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  background:
+    linear-gradient(135deg, rgba(15, 118, 110, 0.1), rgba(183, 121, 31, 0.1)),
+    var(--soft);
+  color: var(--accent-dark);
+  text-align: center;
+  padding: 18px;
+}
+
+.research-highlight-placeholder span {
+  max-width: 14rem;
+  font-size: 0.82rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.research-highlight-heading,
+.research-highlight-copy {
+  max-width: 760px;
+}
+
+.highlight-kicker {
+  margin: 0 0 8px;
+  color: var(--highlight);
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .publication-meta {
@@ -415,6 +529,7 @@ img {
 }
 
 .publication h2,
+.research-highlight h2,
 .talk h2,
 .post-preview h2 {
   margin: 0;
@@ -427,6 +542,7 @@ img {
 
 .authors,
 .venue,
+.research-highlight p,
 .talk p,
 .post-preview p {
   margin: 8px 0 0;
@@ -501,6 +617,14 @@ img {
     align-items: flex-start;
     flex-direction: column;
   }
+
+  .research-highlight {
+    grid-template-columns: 1fr;
+  }
+
+  .two-column .prose > h2:first-child {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 520px) {
@@ -519,7 +643,7 @@ img {
 
   .hero h1,
   .page-header h1 {
-    font-size: 2.55rem;
+    font-size: 2.25rem;
   }
 
   .hero-summary {
@@ -533,4 +657,3 @@ img {
     padding: 18px;
   }
 }
-

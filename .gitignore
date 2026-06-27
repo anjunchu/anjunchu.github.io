@@ -6,3 +6,12 @@ _site/
 bin/
 vendor/
 Gemfile.lock
+PersonalWebsite-*/
+.agents/
+.codex/
+_includes/annotation-mode.html
+assets/images/404.jpg
+assets/images/SteadyState.png
+assets/pdfs/damop-2020.pdf
+assets/pdfs/damop-2021.pdf
+assets/pdfs/marchmeeting-2021.pdf

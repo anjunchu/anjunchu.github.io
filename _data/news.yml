@@ -1,7 +1,40 @@
-- date: 2020-12-07
-  text: "My first first-authored paper was published in Physical Review Letters."
-  url: https://doi.org/10.1103/PhysRevLett.125.240504
-- date: 2019-05-16
-  text: "I joined Professor Rey's theory group at JILA as a graduate research assistant."
-  url: https://jila.colorado.edu/arey/
-
+- date: 2026-06-01
+  display_date: "Jun 2026"
+  text: "Our work on reconfigurable dissipative entanglement between many spin ensembles was published in Physical Review X."
+  url: https://doi.org/10.1103/qdh9-2pc7
+- date: 2025-11-27
+  display_date: "Nov 2025"
+  text: "Our work on engineering multi-body interactions between atomic momentum states was published in Science."
+  url: https://doi.org/10.1126/science.adv0990
+- date: 2025-08-06
+  display_date: "Aug 2025"
+  text: "Our work on symmetry-protected topological optical lattice clocks was published in PRX Quantum."
+  url: https://doi.org/10.1103/h1nh-thg9
+- date: 2025-05-01
+  display_date: "May 2025"
+  text: "Our work on coherent evolution of superexchange interaction in optical lattice clocks was published in Science."
+  url: https://doi.org/10.1126/science.ado5987
+- date: 2025-03-03
+  display_date: "Mar 2025"
+  text: "Our work on exploring general relativistic effects in an interacting optical lattice clock was published in Physical Review Letters."
+  url: https://doi.org/10.1103/PhysRevLett.134.093201
+- date: 2024-09-02
+  display_date: "Sep 2024"
+  text: "I started as a Chicago Prize Postdoctoral Fellow at the Pritzker School of Molecular Engineering at the University of Chicago."
+  url:
+- date: 2024-06-12
+  display_date: "Jun 2024"
+  text: "I passed the PhD thesis defense at the Department of Physics at the University of Colorado Boulder."
+  url:
+- date: 2024-05-02
+  display_date: "May 2024"
+  text: "Our work on engineering photon-mediated exchange interactions between matter waves was published in Science."
+  url: https://doi.org/10.1126/science.adi1393
+- date: 2024-01-24
+  display_date: "Jan 2024"
+  text: "Our work on observering dynamical phases of BCS superconductors in a cavity QED simulator was published in Nature."
+  url: https://doi.org/10.1038/s41586-023-06911-x
+- date: 2023-11-14
+  display_date: "Nov 2023"
+  text: "I received the Boeing Quantum Creators Prize from the Chicago Quantum Exchange."
+  url: https://chicagoquantum.org/news/early-career-researchers-be-honored-2023-boeing-quantum-creators-prize

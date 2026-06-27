@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Publications
-description: "Publication list."
+title: Publication List
+description: ""
 permalink: /publications/
 ---
 
-{% include publication-list.html %}
-
+{% include publication-list.html filters=true %}

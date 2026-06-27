@@ -7,7 +7,7 @@
       </div>
       <div class="publication-links">
         {% if talk.slides %}<a href="{{ talk.slides | relative_url }}">Slides</a>{% endif %}
-        {% if talk.poster %}<a href="{{ talk.poster | relative_url }}">Poster</a>{% endif %}
+        {% if talk.video %}<a href="{{ talk.video | relative_url }}">Video</a>{% endif %}
       </div>
     </article>
   {% endfor %}

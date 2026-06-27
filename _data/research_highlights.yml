@@ -1,0 +1,130 @@
+﻿- title: "A new simple recipe for highly entangled states of spin ensembles"
+  kicker: "Open Quantum System"
+  image: /assets/images/SteadyState.webp
+  image_background: "#071827"
+  image_alt: ""
+  summary: >-
+    Stabilizing complex entangled states against decoherence remains a central challenge in quantum science, often requiring intricate and specialized dissipative processes. We introduce a versatile framework that overcomes this complexity by utilizing a single collective decay process, ubiquitous in cavity QED systems, augmented with easily tunable laser detunings and spin interactions. By breaking permutation symmetry, we dissipatively stabilize a broad family of noncollective many-body states with exact analytical descriptions. Our approach enables multiensemble quantum sensors that achieve Heisenberg-limited sensitivity to field gradients and curvatures while remaining robust to common-mode noise. Furthermore, we demonstrate the stabilization of symmetry-protected topological order, including the celebrated Affleck-Kennedy-Lieb-Tasaki state. These results indicate that simple, naturally occurring dissipation can be reimagined as a reconfigurable tool for engineering both metrological resources and exotic phases of quantum matter.
+  selected: true
+  links:
+    - label: Phys. Rev. X 16, 021047 (2026)
+      url: https://doi.org/10.1103/qdh9-2pc7
+    - label: PME News
+      url: https://pme.uchicago.edu/news-events/news/researchers-craft-new-simple-recipe-highly-entangled-quantum-states
+- title: "Engineering multi-body interactions between atomic momentum states"
+  kicker: "Quantum Simulation"
+  image: /assets/images/ThreeBody.avif
+  image_background: "#071827"
+  image_alt: ""
+  summary: >-
+    Interactions between pairs of particles often dominate over those in which three or more particles couple directly. To implement such higher-order interactions, experimental challenges include not only implementing them in a genuine many-particle system with more than a few atoms but also eliminating the lower-order interactions to make them dominant. We realized an effective three-body Hamiltonian interaction using an ensemble of laser-cooled atoms in a high-finesse optical cavity with the pseudospin encoded by two atomic momentum states. We applied two dressing tones that induce the atoms to exchange photons via the cavity to realize a virtual six-photon process, with lower-order interactions destructively interfered. We also observed signatures of a four-body interaction mediated by a virtual eight-photon process. Our approach may be extensible to three-body interactions in multilevel systems or to even higher-order interactions.
+  selected: false
+  links:
+    - label: Science 390, 925 (2025)
+      url: https://doi.org/10.1126/science.adv0990
+    - label: JILA News
+      url: https://www.colorado.edu/jila/2025/11/27/jila-collaboration-makes-cavity-quantum-electrodynamics-team-sport
+- title: "Symmetry-protected topological optical lattice clock"
+  kicker: "Quantum Metrology"
+  image: /assets/images/SPTOLC.avif
+  image_background: "#071827"
+  image_alt: ""
+  summary: >-
+    Optical lattice clocks (OLCs) use the splitting between two long-lived electronic levels in an atom to provide an unrivaled definition of the second. These clocks have reached record levels of precision, but they will soon reach the point where their steady progress will be limited by small but unwanted experimental imperfections. Therefore, finding protocols to make OLCs more robust is an important milestone. We propose a way to make a leap forward by taking advantage of the robustness offered by "symmetry-protected topological" (SPT) phases. An SPT phase is a type of quantum matter, which minimizes the energy of a Hamiltonian that obeys specific "symmetries." Its topological character stems from the fact that it remains unaffected to all perturbations that preserve these symmetries. Here, first we show how to create an SPT phase in a tilted OLC and how to probe its topological robustness with standard spectroscopic tools. Next, we show that the intrinsic robustness of such a phase can indeed help to reduce the statistical noise arising from certain experimental imperfections and thus help to improve phase-estimation tasks relevant for frequency standards and inertial sensing. Our work bridges several rapidly developing fields in physics and may help open up a new experimental paradigm, which benefits from topologically robust states of matter for enhanced quantum sensing.
+  selected: false
+  links:
+    - label: PRX Quantum 6, 030322 (2025)
+      url: https://doi.org/10.1103/h1nh-thg9
+    - label: JILA News
+      url: https://www.colorado.edu/jila/2025/08/06/smoother-ticking-through-topology
+- title: "Coherent evolution of superexchange interaction in optical lattice clock"
+  kicker: "Quantum Simulation"
+  image: /assets/images/Superexchange.avif
+  image_background: "#071827"
+  image_alt: ""
+  summary: >-
+    Scaling up the performance of atomic clocks requires understanding complex many-body Hamiltonians to ensure meaningful gains for metrological applications. Here we use a degenerate Fermi gas loaded into a three-dimensional optical lattice to study the effect of a tunable Fermi-Hubbard Hamiltonian. The clock laser introduces a spin-orbit coupling spiral phase and breaks the isotropy of superexchange interactions, leading to XXZ-type spin anisotropy. By tuning the lattice confinement and applying imaging spectroscopy, we map out favorable atomic coherence regimes. We transition through various interaction regimes and observe coherent superexchange, tunable through on-site interaction and site-to-site energy shift, affecting the Ramsey fringe contrast over timescales >1 second. This study lays the groundwork for using a three-dimensional optical lattice clock to probe quantum magnetism and spin entanglement.
+  selected: false
+  links:
+    - label: Science 388, 503 (2025)
+      url: https://doi.org/10.1126/science.ado5987
+    - label: JILA News
+      url: https://www.colorado.edu/jila/2025/05/19/pursuit-perfect-timekeeping-understanding-superexchange-interactions-atomic-clocks
+- title: "Uncovering Einstein's relativity in an interacting optical clock"
+  kicker: "Quantum Metrology"
+  image: /assets/images/DynamicalInterplay.png
+  image_background: "#071827"
+  image_alt: ""
+  summary: >-
+    Understanding the interplay between quantum mechanics and general relativity (GR) is a fundamental quest for modern science. We provide a first step in this direction by proposing near-term protocols that probe manifestations of the mass-energy equivalence in an optical lattice clock interrogated with spin coherent and entangled quantum states. To tune and uniquely distinguish the mass-energy equivalence effects (gravitational redshift and second-order Doppler shift) in such a setting, we devise a dressing protocol using an additional nuclear spin state. We then analyze the dynamical interplay between photon-mediated interactions and gravitational redshift and show that such interplay can lead to entanglement generation and frequency synchronization dynamics. In the regime where all atomic spins synchronize, we show the synchronization time depends on the initial entanglement of the state and can be used as a proxy of its metrological gain compared to a classical state. Our work opens new possibilities for exploring the effects of general relativity on quantum coherence and entanglement in optical lattice clock experiments.
+  selected: true
+  links:
+    - label: Phys. Rev. Lett. 134, 093201 (2025)
+      url: https://doi.org/10.1103/PhysRevLett.134.093201
+    - label: JILA News
+      url: https://www.colorado.edu/jila/2025/03/05/sneaky-clocks-uncovering-einsteins-relativity-interacting-atomic-playground
+- title: "Trade-offs between unitary and measurement induced spin squeezing"
+  kicker: "Quantum Metrology"
+  image: /assets/images/OATvsQND.avif
+  image_background: "#071827"
+  image_alt: ""
+  summary: >-
+    Within the field of quantum metrology, spin squeezed states constitute a concrete example of a quantum-enhanced resource with near-term practical applications. Particularly promising strategies for the scalable generation of squeezing are provided by cavity QED systems. When driven by an external laser, the resulting dispersive atomic response is nonlinear and can be interpreted as an infinite range unitary Ising interaction called one-axis-twisting (OAT). On the other hand, after atoms and light interact, photons leaking out of the cavity carry information about the atomic ensemble that can be accessed by continuously monitoring the output light via quantum nondemolition (QND) measurements. We study the combined effects of QND and OAT on the preparation of spin squeezing in an ensemble of atoms interacting with a single electromagnetic field mode inside a cavity. We derive simple criteria that determine the conditions at which QND entanglement generation overperforms OAT protocols. Our conclusions are relevant for state-of-the-art atomic clocks that aim to operate below the standard quantum limit.
+  selected: false
+  links:
+    - label: Phys. Rev. Res. 6, L032037 (2024)
+      url: https://doi.org/10.1103/PhysRevResearch.6.L032037
+    - label: JILA News
+      url: https://www.colorado.edu/jila/2024/10/07/measure-or-not-measure-dynamically-evolve-question
+- title: "Photon-mediated exchange interactions between matter waves"
+  kicker: "Quantum Metrology"
+  image: /assets/images/MomentumExchange.avif
+  image_background: "#071827"
+  image_alt: ""
+  summary: >-
+    Large ensembles of laser-cooled atoms interacting through infinite-range photon-mediated interactions are powerful platforms for quantum simulation and sensing. We realize momentum-exchange interactions in which pairs of atoms exchange their momentum states by collective emission and absorption of photons from a common cavity mode, a process equivalent to a spin-exchange or XX collective Heisenberg interaction. The momentum-exchange interaction leads to an observed all-to-all Ising-like interaction in a matter-wave interferometer. A many-body energy gap also emerges, effectively binding interferometer matter-wave packets together to suppress Doppler dephasing in analogy to MÃ¶ssbauer spectroscopy. The tunable momentum-exchange interaction expands the capabilities of quantum interaction-enhanced matter-wave interferometry and may enable the realization of exotic behaviors, including simulations of superconductors and dynamical gauge fields.
+  selected: false
+  links:
+    - label: Science 384, 551 (2024)
+      url: https://doi.org/10.1126/science.adi1393
+    - label: JILA News
+      url: https://www.colorado.edu/jila/2024/04/28/twisting-and-binding-matter-waves-photons-cavity
+- title: "Unveiling BCS superconductivity in a cavity QED simulator"
+  kicker: "Quantum Simulation"
+  image: /assets/images/BCS.png
+  image_background: "#071827"
+  image_alt: ""
+  summary: >-
+    In conventional Bardeen-Cooper-Schrieffer (BCS) superconductors, electrons with opposite momenta bind into Cooper pairs due to an attractive interaction mediated by phonons in the material. Although superconductivity naturally emerges at thermal equilibrium, it can also emerge out of equilibrium when the system parameters are abruptly changed. The resulting out-of-equilibrium phases are predicted to occur in real materials and ultracold fermionic atoms, but not all have yet been directly observed. Here we realize an alternative way to generate the proposed dynamical phases using cavity quantum electrodynamics (QED). Our system encodes the presence or absence of a Cooper pair in a long-lived electronic transition in 88Sr atoms coupled to an optical cavity and represents interactions between electrons as photon-mediated interactions through the cavity. We observe regimes in which the order parameter decays to zero (phase I), assumes a non-equilibrium steady-state value (phase II) or exhibits persistent oscillations (phase III). This opens up exciting prospects for quantum simulation, including the potential to engineer unconventional superconductors and to probe beyond mean-field effects, and for increasing the coherence time for quantum sensing.
+  selected: true
+  links:
+    - label: Nature 625, 679 (2024)
+      url: https://doi.org/10.1038/s41586-023-06911-x
+    - label: JILA News
+      url: https://www.colorado.edu/jila/2024/01/24/b-c-s-easy-i-ii-iii-unveiling-dynamic-superconductivity
+- title: "A magic balance of atomic interactions in optical lattice clocks"
+  kicker: "Quantum Metrology"
+  image: /assets/images/ClockDensityShift.jpg
+  image_background: "#071827"
+  image_alt: ""
+  summary: >-
+    Engineering a Hamiltonian system with tunable interactions provides opportunities to optimize performance for quantum sensing and explore emerging phenomena of many-body systems. An optical lattice clock based on partially delocalized Wannier-Stark states in a gravity-tilted shallow lattice supports superior quantum coherence and adjustable interactions via spin-orbit coupling, thus presenting a powerful spin model realization. The relative strength of the on-site and off-site interactions can be tuned to achieve a zero density shift at a "magic" lattice depth. This mechanism, together with a large number of atoms, enables the demonstration of the most stable atomic clock while minimizing a key systematic uncertainty related to atomic density. Interactions can also be maximized by driving off-site Wannier-Stark transitions, realizing a ferromagnetic to paramagnetic dynamical phase transition.
+  selected: false
+  links:
+    - label: Sci. Adv. 8, eadc9242 (2022)
+      url: https://doi.org/10.1126/sciadv.adc9242
+    - label: JILA News
+      url: https://www.colorado.edu/jila/2022/10/12/magic-balance-optical-lattice-clocks
+- title: "A magic recipe for a quantum interferometer"
+  kicker: "Quantum Metrology"
+  image: /assets/images/CavityInterferometer.png
+  image_background: "#071827"
+  image_alt: ""
+  summary: >-
+    Ultracold atomic systems offer tremendous potential for quantum sensing applications including time keeping and gravimetry, and thus provide opportunities for searching or constraining new physics in outstandingly precise and compact experiments. We propose a quantum enhanced interferometric protocol for gravimetry and force sensing using cold atoms in an optical lattice supported by a standing-wave cavity. By loading the atoms in partially delocalized Wannier-Stark states, it is possible to cancel the undesirable inhomogeneities arising from the mismatch between the lattice and cavity fields and to generate spin squeezed states via a uniform one-axis twisting model, overcoming relevant limitations faced by current atomic sensors. The quantum enhanced sensitivity of the states is combined with the subsequent application of a compound pulse sequence that allows us to separate atoms by several lattice sites. This, together with the capability to load small atomic clouds in the lattice at micrometric distances from a surface, make our setup ideal for sensing short-range forces.
+  selected: false
+  links:
+    - label: Phys. Rev. Lett. 127, 210401 (2021)
+      url: https://doi.org/10.1103/PhysRevLett.127.210401
+    - label: JILA News
+      url: https://www.colorado.edu/jila/2021/11/17/magic-recipe-quantum-interferometer

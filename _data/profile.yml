@@ -1,23 +1,14 @@
 name: "Anjun Chu"
-title: "Physics PhD student"
-affiliation: "Professor Rey's theory group, JILA and University of Colorado Boulder"
-location: "Boulder, Colorado"
+title: "Chicago Prize Postdoctoral Fellow"
+affiliation: "Pritzker School of Molecular Engineering, University of Chicago"
+location: "Chicago, Illinois"
 image: /assets/images/authorimage.png
 image_alt: "Portrait of Anjun Chu"
-email:
+email: anjunchu@uchicago.edu
 links:
-  - label: GitHub
-    url: https://github.com/anjunchu
-  - label: Rey Theory Group
-    url: https://jila.colorado.edu/arey/
-research_interests:
-  - Quantum simulation
-  - Quantum metrology
-  - Quantum information
-  - AMO and condensed matter theory
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=VVRdSYkAAAAJ&hl=zh-CN&oi=ao
+  - label: ORCID
+    url: https://orcid.org/0000-0001-8489-9831
 summary: >-
-  I am a physics PhD student in Professor Rey's theory group at JILA and the
-  University of Colorado Boulder. I received my BSc degree in Physics from
-  Tsinghua University. My research interests lie in quantum simulation, quantum
-  metrology, and quantum information in AMO and condensed matter systems.
-
+  I am a Chicago Prize Postdoctoral Fellow at the Pritzker School of Molecular Engineering at the University of Chicago, with close collaboration with Professor Aashish Clerk. I received my Ph.D. degree in Physics from the University of Colorado Boulder in 2024 under the supervision of Professor Ana Maria Rey, and my B.Sc. degree in Physics from Tsinghua University in 2018 under the supervision of Professor Luming Duan. I was awarded the Boeing Quantum Creators Prize in 2023. My research focuses on the theory of quantum sensing, simulation, computation and open quantum systems, with an emphasis on their implementation in highly controllable atomic, molecular, and optical platforms.

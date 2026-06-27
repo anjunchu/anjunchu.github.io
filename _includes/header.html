@@ -1,11 +1,13 @@
 <header class="site-header">
   <div class="container nav-shell">
     <a class="site-mark" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} homepage">
-      <span class="mark-dot" aria-hidden="true"></span>
       <span>{{ site.title }}</span>
     </a>
     <nav class="site-nav" aria-label="Main navigation">
       {% for item in site.data.navigation %}
+        {% if item.key == "notes" and site.data.site_settings.show_notes != true %}
+          {% continue %}
+        {% endif %}
         {% assign is_current = false %}
         {% if page.url == item.url %}
           {% assign is_current = true %}
@@ -15,4 +17,3 @@
     </nav>
   </div>
 </header>
-

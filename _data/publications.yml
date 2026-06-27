@@ -1,16 +1,371 @@
-- title: "Quantum enhanced cavity QED interferometer with partially delocalized atoms in lattices"
-  authors: "**Anjun Chu**, Peiru He, James K. Thompson, and Ana Maria Rey"
-  venue: "arXiv:2104.04204"
-  year: 2021
+- title: "Collective three-body interactions enable a robust quantum speedup"
+  authors: "Haoqing Zhang, **Anjun Chu**, Chengyi Luo, Chitose Maruko, Eliot A. Bohr, James K. Thompson, and Ana Maria Rey"
+  venue: "Physical Review Research, in press"
+  year: 2026
+  status: "In press"
+  doi:
+  arxiv: https://arxiv.org/abs/2512.06170
+  pdf:
+  supplement:
+  news:
+  selected: false
+  groups:
+    - theory-work
+    - quantum-metrology
+- title: "Reconfigurable dissipative entanglement between many spin ensembles: from robust quantum sensing to many-body state engineering"
+  authors: "**Anjun Chu**, Mikhail Mamaev, Martin Koppenhoefer, Ming Yuan, and Aashish A. Clerk"
+  venue: "Physical Review X 16, 021047"
+  year: 2026
+  status: "Published"
+  doi: https://doi.org/10.1103/qdh9-2pc7
+  arxiv: https://arxiv.org/abs/2510.07616
+  pdf: /assets/pdfs/qdh9-2pc7.pdf
+  supplement:
+  news: https://pme.uchicago.edu/news-events/news/researchers-craft-new-simple-recipe-highly-entangled-quantum-states
+  selected: true
+  groups:
+    - selected-paper
+    - theory-work
+    - quantum-metrology
+    - quantum-simulation
+    - open-quantum-systems
+    - cavity-qed
+- title: "Extracting information from a superradiant burst using simple measurements"
+  authors: "Federico Belliardo, **Anjun Chu**, Martin Koppenhoefer, and Aashish A. Clerk"
+  venue: "arXiv:2603.13130"
+  year: 2026
   status: "Preprint"
   doi:
-  arxiv: https://arxiv.org/abs/2104.04204
-  pdf: /assets/pdfs/2104.04204.pdf
+  arxiv: https://arxiv.org/abs/2603.13130
+  pdf:
   supplement:
+  news:
+  selected: false
+  groups:
+    - theory-work
+    - quantum-metrology
+    - open-quantum-systems
+- title: "Simulation of topological superconductors and their competing orders using photon-mediated interactions"
+  authors: "**Anjun Chu**, Joyce Kwan, Eric Yilun Song, Seth Hew Peng Chew, James K. Thompson, and Ana Maria Rey"
+  venue: "arXiv:2512.17889"
+  year: 2025
+  status: "Preprint"
+  doi:
+  arxiv: https://arxiv.org/abs/2512.17889
+  pdf:
+  supplement:
+  news:
   selected: true
-  tags:
-    - Quantum metrology
-    - Cavity QED
+  groups:
+    - selected-paper
+    - theory-work
+    - quantum-simulation
+    - cavity-qed
+- title: "Probing the Critical Point (CritPt) of AI Reasoning: a Frontier Physics Research Benchmark"
+  authors: "Minhui Zhu et al., including **Anjun Chu**"
+  venue: "arXiv:2509.26574"
+  year: 2025
+  status: "Preprint"
+  doi:
+  arxiv: https://arxiv.org/abs/2509.26574
+  pdf:
+  supplement:
+  news:
+  selected: false
+  groups:
+- title: "Realization of three and four-body interactions between momentum states in a cavity through optical dressing"
+  authors: "Chengyi Luo, Haoqing Zhang, Chitose Maruko, Eliot A. Bohr, **Anjun Chu**, Ana Maria Rey, and James K. Thompson"
+  venue: "Science 390, 925"
+  year: 2025
+  status: "Published"
+  doi: https://doi.org/10.1126/science.adv0990
+  arxiv: https://arxiv.org/abs/2410.12132
+  pdf: /assets/pdfs/science.adv0990.pdf
+  supplement: /assets/pdfs/SM of science.adv0990.pdf
+  news: https://www.colorado.edu/jila/2025/11/27/jila-collaboration-makes-cavity-quantum-electrodynamics-team-sport
+  selected: false
+  groups:
+    - experimental-collaborations
+    - quantum-simulation
+    - cavity-qed
+- title: "Solitons in arbitrary dimensions stabilized by photon-mediated interactions"
+  authors: "Haoqing Zhang, **Anjun Chu**, Chengyi Luo, James K. Thompson, and Ana Maria Rey"
+  venue: "Physical Review Letters 135, 173402"
+  year: 2025
+  status: "Published"
+  doi: https://doi.org/10.1103/qrk6-phhk
+  arxiv: https://arxiv.org/abs/2504.17078
+  pdf: /assets/pdfs/qrk6-phhk.pdf
+  supplement: /assets/pdfs/SM of qrk6-phhk.pdf
+  news:
+  selected: false
+  groups:
+    - theory-work
+    - quantum-simulation
+    - cavity-qed
+- title: "Atomic coherence of 2 minutes and instability of 1.5 x 10^-18 at 1 s in a Wannier-Stark lattice clock"
+  authors: "Kyungtae Kim, Alexander Aeppli, William Warfield, **Anjun Chu**, Ana Maria Rey, and Jun Ye"
+  venue: "Physical Review Letters 135, 103601"
+  year: 2025
+  status: "Published"
+  doi: https://doi.org/10.1103/3wtv-sty2
+  arxiv: https://arxiv.org/abs/2505.06444
+  pdf: /assets/pdfs/3wtv-sty2.pdf
+  supplement: /assets/pdfs/SM of 3wtv-sty2.pdf
+  news:
+  selected: false
+  groups:
+    - experimental-collaborations
+    - quantum-metrology
+    - optical-clock
+- title: "Symmetry-protected topological optical lattice clock"
+  authors: "Tianrui Xu, **Anjun Chu**, Kyungtae Kim, James K. Thompson, Jun Ye, Tilman Esslinger, and Ana Maria Rey"
+  venue: "PRX Quantum 6, 030322"
+  year: 2025
+  status: "Published"
+  doi: https://doi.org/10.1103/h1nh-thg9
+  arxiv: https://arxiv.org/abs/2501.09658
+  pdf: /assets/pdfs/h1nh-thg9.pdf
+  supplement:
+  news: https://www.colorado.edu/jila/2025/08/06/smoother-ticking-through-topology
+  selected: false
+  groups:
+    - theory work
+    - quantum-simulation
+    - quantum-metrology
+    - optical-clock
+- title: "Time-resolved spectral gap spectroscopy in a quantum simulator of fermionic superfluidity inside an optical cavity"
+  authors: "Dylan J. Young, Eric Yilun Song, **Anjun Chu**, Diego Barberena, Zhijing Niu, Vera M. Schaefer, Robert J. Lewis-Swan, Ana Maria Rey, and James K. Thompson"
+  venue: "Physical Review Letters 134, 183404"
+  year: 2025
+  status: "Published"
+  doi: https://doi.org/10.1103/PhysRevLett.134.183404
+  arxiv: https://arxiv.org/abs/2408.12640
+  pdf: /assets/pdfs/PhysRevLett.134.183404.pdf
+  supplement: /assets/pdfs/SM of PhysRevLett.134.183404.pdf
+  news:
+  selected: false
+  groups:
+    - experimental-collaborations
+    - quantum-simulation
+    - cavity-qed
+- title: "Coherent evolution of superexchange interaction in seconds-long optical clock spectroscopy"
+  authors: "William R. Milner, Stefan Lannig, Mikhail Mamaev, Lingfeng Yan, **Anjun Chu**, Ben Lewis, Max N. Frankel, Ross B. Hutson, Ana Maria Rey, and Jun Ye"
+  venue: "Science 388, 503"
+  year: 2025
+  status: "Published"
+  doi: https://doi.org/10.1126/science.ado5987
+  arxiv: https://arxiv.org/abs/2402.13398
+  pdf: /assets/pdfs/science.ado5987.pdf
+  supplement: /assets/pdfs/SM of science.ado5987.pdf
+  news: https://www.colorado.edu/jila/2025/05/19/pursuit-perfect-timekeeping-understanding-superexchange-interactions-atomic-clocks
+  selected: false
+  groups:
+    - experimental-collaborations
+    - quantum-simulation
+    - optical-clock
+- title: "A dissipation-induced superradiant transition in a strontium cavity-QED system"
+  authors: "Eric Yilun Song, Diego Barberena, Dylan J. Young, Edwin Chaparro, **Anjun Chu**, Sanaa Agarwal, Zhijing Niu, Jeremy T. Young, Ana Maria Rey, and James K. Thompson"
+  venue: "Science Advances 11, eadu5799"
+  year: 2025
+  status: "Published"
+  doi: https://doi.org/10.1126/sciadv.adu5799
+  arxiv: https://arxiv.org/abs/2408.11086
+  pdf: /assets/pdfs/sciadv.adu5799.pdf
+  supplement: /assets/pdfs/SM of sciadv.adu5799.pdf
+  news:
+  selected: false
+  groups:
+    - experimental-collaborations
+    - open-quantum-systems
+    - cavity-qed
+- title: "Hamiltonian engineering of collective XYZ spin models in an optical cavity"
+  authors: "Chengyi Luo, Haoqing Zhang, **Anjun Chu**, Chitose Maruko, Ana Maria Rey, and James K. Thompson"
+  venue: "Nature Physics 21, 916"
+  year: 2025
+  status: "Published"
+  doi: https://doi.org/10.1038/s41567-025-02866-0
+  arxiv: https://arxiv.org/abs/2402.19429
+  pdf: /assets/pdfs/s41567-025-02866-0.pdf
+  news:
+  supplement:
+  selected: false
+  groups:
+    - experimental-collaborations
+    - quantum-simulation
+    - cavity-qed
+- title: "Many-body gap protection of motional dephasing of an optical clock transition"
+  authors: "Zhijing Niu, Vera M. Schaefer, Haoqing Zhang, Cameron Wagner, Nathan R. Taylor, Dylan J. Young, Eric Yilun Song, **Anjun Chu**, Ana Maria Rey, and James K. Thompson"
+  venue: "Physical Review Letters 134, 113403"
+  year: 2025
+  status: "Published"
+  doi: https://doi.org/10.1103/PhysRevLett.134.113403
+  arxiv: https://arxiv.org/abs/2409.16265
+  pdf: /assets/pdfs/PhysRevLett.134.113403.pdf
+  supplement: /assets/pdfs/SM of PhysRevLett.134.113403.pdf
+  news:
+  selected: false
+  groups:
+    - experimental-collaborations
+    - quantum-metrology
+    - cavity-qed
+- title: "Exploring the dynamical interplay between mass-energy equivalence, interactions and entanglement in an optical lattice clock"
+  authors: "**Anjun Chu**, Victor J. Martinez-Lahuerta, Maya Miklos, Kyungtae Kim, Peter Zoller, Klemens Hammerer, Jun Ye, and Ana Maria Rey"
+  venue: "Physical Review Letters 134, 093201"
+  year: 2025
+  status: "Published"
+  doi: https://doi.org/10.1103/PhysRevLett.134.093201
+  arxiv: https://arxiv.org/abs/2406.03804
+  pdf: /assets/pdfs/PhysRevLett.134.093201.pdf
+  supplement: /assets/pdfs/SM of PhysRevLett.134.093201.pdf
+  news: https://www.colorado.edu/jila/2025/03/05/sneaky-clocks-uncovering-einsteins-relativity-interacting-atomic-playground
+  selected: true
+  groups:
+    - selected-paper
+    - theory-work
+    - quantum-metrology
+    - optical-clock
+    - cavity-qed
+- title: "Entangled matter-waves for quantum enhanced sensing"
+  authors: "John D. Wilson, Jarrod T. Reilly, Haoqing Zhang, Chengyi Luo, **Anjun Chu**, James K. Thompson, Ana Maria Rey, and Murray J. Holland"
+  venue: "Physical Review A 110, L041301"
+  year: 2024
+  status: "Published"
+  doi: https://doi.org/10.1103/PhysRevA.110.L041301
+  arxiv: https://arxiv.org/abs/2406.13616
+  pdf: /assets/pdfs/PhysRevA.110.L041301.pdf
+  supplement: /assets/pdfs/SM of PhysRevA.110.L041301.pdf
+  news:
+  selected: false
+  groups:
+    - theory-work
+    - quantum-metrology
+    - cavity-qed
+- title: "Trade-offs between unitary and measurement induced spin squeezing in cavity QED"
+  authors: "Diego Barberena, **Anjun Chu**, James K. Thompson, and Ana Maria Rey"
+  venue: "Physical Review Research 6, L032037"
+  year: 2024
+  status: "Published"
+  doi: https://doi.org/10.1103/PhysRevResearch.6.L032037
+  arxiv: https://arxiv.org/abs/2309.15353
+  pdf: /assets/pdfs/PhysRevResearch.6.L032037.pdf
+  supplement: /assets/pdfs/SM of PhysRevResearch.6.L032037.pdf
+  news: https://www.colorado.edu/jila/2024/10/07/measure-or-not-measure-dynamically-evolve-question
+  selected: false
+  groups:
+    - theory-work
+    - quantum-metrology
+    - cavity-qed
+- title: "Momentum-exchange interactions in a Bragg atom interferometer suppress Doppler dephasing"
+  authors: "Chengyi Luo, Haoqing Zhang, Vanessa P. W. Koh, John D. Wilson, **Anjun Chu**, Murray J. Holland, Ana Maria Rey, and James K. Thompson"
+  venue: "Science 384, 551"
+  year: 2024
+  status: "Published"
+  doi: https://doi.org/10.1126/science.adi1393
+  arxiv: https://arxiv.org/abs/2304.01411
+  pdf: /assets/pdfs/science.adi1393.pdf
+  supplement: /assets/pdfs/SM of science.adi1393.pdf
+  news: https://www.colorado.edu/jila/2024/04/28/twisting-and-binding-matter-waves-photons-cavity
+  selected: false
+  groups:
+    - experimental-collaborations
+    - quantum-metrology
+    - cavity-qed
+- title: "Observing dynamical phases of BCS superconductors in a cavity QED simulator"
+  authors: "Dylan J. Young, **Anjun Chu** (equal contribution), Eric Yilun Song, Diego Barberena, David Wellnitz, Zhijing Niu, Vera M. Schaefer, Robert J. Lewis-Swan, Ana Maria Rey, and James K. Thompson"
+  venue: "Nature 625, 679"
+  year: 2024
+  status: "Published"
+  doi: https://doi.org/10.1038/s41586-023-06911-x
+  arxiv: https://arxiv.org/abs/2306.00066
+  pdf: /assets/pdfs/s41586-023-06911-x.pdf
+  supplement: /assets/pdfs/SM of s41586-023-06911-x.pdf
+  news: https://www.colorado.edu/jila/2024/01/24/b-c-s-easy-i-ii-iii-unveiling-dynamic-superconductivity
+  selected: true
+  groups:
+    - selected-paper
+    - experimental-collaborations
+    - quantum-simulation
+    - cavity-qed
+- title: "Control and amplification of Bloch oscillations via photon-mediated interactions"
+  authors: "Haoqing Zhang, **Anjun Chu**, Chengyi Luo, James K. Thompson, and Ana Maria Rey"
+  venue: "Physical Review Research 5, L032039"
+  year: 2023
+  status: "Published"
+  doi: https://doi.org/10.1103/PhysRevResearch.5.L032039
+  arxiv: https://arxiv.org/abs/2301.08296
+  pdf: /assets/pdfs/PhysRevResearch.5.L032039.pdf
+  supplement: /assets/pdfs/SM of PhysRevResearch.5.L032039.pdf
+  news:
+  selected: false
+  groups:
+    - theory-work
+    - quantum-simulation
+    - cavity-qed
+- title: "Photon-mediated correlated hopping in a synthetic ladder"
+  authors: "**Anjun Chu**, Asier Pineiro Orioli, Diego Barberena, James K. Thompson, and Ana Maria Rey"
+  venue: "Physical Review Research 5, L022034"
+  year: 2023
+  status: "Published"
+  doi: https://doi.org/10.1103/PhysRevResearch.5.L022034
+  arxiv: https://arxiv.org/abs/2208.01896
+  pdf: /assets/pdfs/PhysRevResearch.5.L022034.pdf
+  supplement: /assets/pdfs/SM of PhysRevResearch.5.L022034.pdf
+  news:
+  selected: true
+  groups:
+    - selected-paper
+    - theory-work
+    - quantum-simulation
+    - cavity-qed
+- title: "Bosonic pair production and squeezing for optical phase measurements in long-lived dipoles coupled to a cavity"
+  authors: "Bhuvanesh Sundar, Diego Barberena, Asier Pineiro Orioli, **Anjun Chu**, James K. Thompson, Ana Maria Rey, and Robert J. Lewis-Swan"
+  venue: "Physical Review Letters 130, 113202"
+  year: 2023
+  status: "Published"
+  doi: https://doi.org/10.1103/PhysRevLett.130.113202
+  arxiv: https://arxiv.org/abs/2204.13090
+  pdf: /assets/pdfs/PhysRevLett.130.113202.pdf
+  supplement: /assets/pdfs/SM of PhysRevLett.130.113202.pdf
+  news:
+  selected: false
+  groups:
+    - theory-work
+    - quantum-metrology
+    - cavity-qed
+- title: "Hamiltonian engineering of spin-orbit-coupled fermions in a Wannier-Stark optical lattice clock"
+  authors: "Alexander Aeppli, **Anjun Chu**, Tobias Bothwell (equal contribution), Colin J. Kennedy, Dhruv Kedar, Peiru He, Ana Maria Rey, and Jun Ye"
+  venue: "Science Advances 8, eadc9242"
+  year: 2022
+  status: "Published"
+  doi: https://doi.org/10.1126/sciadv.adc9242
+  arxiv: https://arxiv.org/abs/2201.05909
+  pdf: /assets/pdfs/sciadv.adc9242.pdf
+  supplement: /assets/pdfs/SM of sciadv.adc9242.pdf
+  news: https://www.colorado.edu/jila/2022/10/12/magic-balance-optical-lattice-clocks
+  selected: true
+  groups:
+    - selected-paper
+    - experimental-collaborations
+    - quantum-simulation
+    - quantum-metrology
+    - optical-clock
+- title: "Quantum enhanced cavity QED interferometer with partially delocalized atoms in lattices"
+  authors: "**Anjun Chu**, Peiru He, James K. Thompson, and Ana Maria Rey"
+  venue: "Physical Review Letters 127, 210401"
+  year: 2021
+  status: "Published"
+  doi: https://doi.org/10.1103/PhysRevLett.127.210401
+  arxiv: https://arxiv.org/abs/2104.04204
+  pdf: /assets/pdfs/PhysRevLett.127.210401.pdf
+  supplement: /assets/pdfs/SM of PhysRevLett.127.210401.pdf
+  news: https://www.colorado.edu/jila/2021/11/17/magic-recipe-quantum-interferometer
+  selected: true
+  groups:
+    - selected-paper
+    - theory-work
+    - quantum-metrology
+    - cavity-qed
 - title: "Observing the polarization of cosmic-ray muons in student physics laboratory"
   authors: "Jisi Xu, **Anjun Chu**, Zi Yuan, Xinliang Song, Tianle Cheng, Han Yi, Yijie Wang, Ying Chang, Zhao Zhang, and Zhigang Xiao"
   venue: "European Journal of Physics 42, 035603"
@@ -20,25 +375,26 @@
   arxiv:
   pdf: /assets/pdfs/Xu_2021_Eur._J._Phys._42_035603.pdf
   supplement:
+  news:
   selected: false
-  tags:
-    - Physics education
-    - Cosmic rays
-- title: "Simulation of XXZ Spin Models using Sideband Transitions in Trapped Bosonic Gases"
+  groups:
+- title: "Simulation of XXZ spin models using sideband transitions in trapped bosonic gases"
   authors: "**Anjun Chu**, Johannes Will, Jan Arlt, Carsten Klempt, and Ana Maria Rey"
   venue: "Physical Review Letters 125, 240504"
   year: 2020
   status: "Published"
   doi: https://doi.org/10.1103/PhysRevLett.125.240504
-  arxiv:
+  arxiv: https://arxiv.org/abs/2004.01282
   pdf: /assets/pdfs/PhysRevLett.125.240504.pdf
   supplement: /assets/pdfs/SM%20of%20PhysRevLett.125.240504.pdf
+  news:
   selected: true
-  tags:
-    - Quantum simulation
-    - Spin models
+  groups:
+    - selected-paper
+    - experimental-collaborations
+    - quantum-simulation
 - title: "Observation of dynamical quantum phase transitions in a spinor condensate"
-  authors: "H.-X. Yang, T. Tian, Y.-B. Yang, L.-Y. Qiu, H.-Y. Liang, **A.-J. Chu**, C. B. Dag, Y. Xu, Y. Liu, and L.-M. Duan"
+  authors: "Haoxiang Yang, Tian Tian, Yanbin Yang, Liyuan Qiu, Haiyu Liang, **Anjun Chu**, Ceren B. Dag, Yong Xu, Yingmei Liu, and Luming Duan"
   venue: "Physical Review A 100, 013622"
   year: 2019
   status: "Published"
@@ -46,8 +402,8 @@
   arxiv:
   pdf: /assets/pdfs/PhysRevA.100.013622.pdf
   supplement:
+  news:
   selected: false
-  tags:
-    - Quantum simulation
-    - Dynamical phase transitions
-
+  groups:
+    - experimental-collaborations
+    - quantum-simulation

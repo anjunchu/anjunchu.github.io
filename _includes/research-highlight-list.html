@@ -1,0 +1,38 @@
+{% assign shown = 0 %}
+{% assign limit = include.limit | default: 999 %}
+<div class="research-highlight-list">
+  {% for highlight in site.data.research_highlights %}
+    {% assign should_show = true %}
+    {% if include.selected and highlight.selected != true %}
+      {% assign should_show = false %}
+    {% endif %}
+    {% if should_show and shown < limit %}
+      {% assign shown = shown | plus: 1 %}
+      <article class="research-highlight {% if highlight.selected %}is-selected{% endif %}">
+        <div class="research-highlight-heading">
+          {% if highlight.kicker %}<p class="highlight-kicker">{{ highlight.kicker }}</p>{% endif %}
+          <h2>{{ highlight.title }}</h2>
+        </div>
+        <div class="research-highlight-media" {% if highlight.image_background %}style="--highlight-image-bg: {{ highlight.image_background }};"{% endif %}>
+          {% if highlight.image %}
+            <img src="{{ highlight.image | relative_url }}" alt="{{ highlight.image_alt }}">
+          {% else %}
+            <div class="research-highlight-placeholder" aria-hidden="true">
+              <span>{{ highlight.kicker }}</span>
+            </div>
+          {% endif %}
+        </div>
+        <div class="research-highlight-copy">
+          <p>{{ highlight.summary }}</p>
+          {% if highlight.links %}
+            <div class="publication-links">
+              {% for link in highlight.links %}
+                <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      </article>
+    {% endif %}
+  {% endfor %}
+</div>

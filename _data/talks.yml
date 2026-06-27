@@ -1,22 +1,32 @@
-- title: "Quantum enhanced cavity QED interferometer with partially delocalized atoms in lattices"
-  event: "APS DAMOP Meeting"
-  type: "Oral Presentation"
-  year: 2021
+- title: "When light makes atoms talk: From quantum simulation to precision measurements"
+  event: "AMO/QI Seminar, University of California Berkeley"
+  type: "Invited Talk"
+  year: 2026
+  date: 2026-02-04
   location:
-  slides: /assets/pdfs/damop-2021.pdf
-  poster:
-- title: "Observation of a dynamical phase transition in a quantum simulator of Lipkin-Meshkov-Glick model using bosonic gases"
-  event: "APS March Meeting"
-  type: "Oral Presentation"
-  year: 2021
+  slides:
+  video:
+- title: "Reconfigurable dissipative stabilization of entanglement between many spin ensembles: Robust quantum sensing and many-body state engineering"
+  event: "CTQM Theory Colloquium, University of Colorado Boulder"
+  type: "Invited Talk"
+  year: 2025
+  date: 2025-08-22
   location:
-  slides: /assets/pdfs/marchmeeting-2021.pdf
-  poster:
-- title: "Simulation of XXZ spin models using sideband transitions in trapped bosonic gases"
-  event: "APS DAMOP Meeting"
-  type: "Oral Presentation"
-  year: 2020
+  slides:
+  video:
+- title: "Simulation of BCS superconductors in cavity QED systems"
+  event: "Boeing Quantum Creators Prize Symposium, University of Chicago"
+  type: "Invited Talk"
+  year: 2023
+  date: 2023-11-14
   location:
-  slides: /assets/pdfs/damop-2020.pdf
-  poster:
-
+  slides:
+  video:
+- title: "Photon-mediated correlated hopping in a synthetic ladder"
+  event: "CTQM Theory Colloquium, University of Colorado Boulder"
+  type: "Invited Talk"
+  year: 2022
+  date: 2022-10-21
+  location:
+  slides:
+  video:

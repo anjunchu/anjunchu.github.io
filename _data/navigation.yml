@@ -1,9 +1,18 @@
-- text: Home
+- key: home
+  text: Home
   url: /
-- text: Research
+- key: research
+  text: Research
   url: /research/
-- text: Publications
+- key: publications
+  text: Publications
   url: /publications/
-- text: Notes
+- key: talks
+  text: Talks
+  url: /talks/
+- key: notes
+  text: Notes
   url: /notes/
-
+- key: cv
+  text: CV
+  url: /assets/pdfs/anjun-chu-cv.pdf

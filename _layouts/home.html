@@ -7,7 +7,6 @@ layout: default
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow">{{ profile.title }}</p>
       <h1>{{ profile.name }}</h1>
       <p class="hero-summary">{{ profile.summary }}</p>
       <div class="interest-row" aria-label="Research interests">
@@ -19,7 +18,6 @@ layout: default
     </div>
     <figure class="profile-figure">
       <img src="{{ profile.image | relative_url }}" alt="{{ profile.image_alt }}">
-      <figcaption>{{ profile.affiliation }}</figcaption>
     </figure>
   </div>
 </section>
@@ -31,8 +29,7 @@ layout: default
     </div>
     <aside class="sidebar-block" aria-labelledby="news-heading">
       <h2 id="news-heading">Recent News</h2>
-      {% include news-list.html limit=4 %}
+      {% include news-list.html limit=6 %}
     </aside>
   </div>
 </section>
-
