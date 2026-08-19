@@ -1,12 +1,12 @@
 - title: "Collective three-body interactions enable a robust quantum speedup"
   authors: "Haoqing Zhang, **Anjun Chu**, Chengyi Luo, Chitose Maruko, Eliot A. Bohr, James K. Thompson, and Ana Maria Rey"
-  venue: "Physical Review Research, in press"
+  venue: "Physical Review Research 8, L032025"
   year: 2026
-  status: "In press"
-  doi:
+  status: "Published"
+  doi: https://doi.org/10.1103/2pg6-vd1j
   arxiv: https://arxiv.org/abs/2512.06170
-  pdf:
-  supplement:
+  pdf: /assets/pdfs/2pg6-vd1j.pdf
+  supplement: /assets/pdfs/SM of 2pg6-vd1j.pdf
   news:
   selected: false
   groups:
