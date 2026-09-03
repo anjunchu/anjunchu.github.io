@@ -44,9 +44,10 @@
             {% endif %}
           >
             <div class="publication-meta">
+              <span>{{ pub.year }}</span>
               {% if pub.status %}<span>{{ pub.status }}</span>{% endif %}
             </div>
-            <h3>{{ pub.title }}</h3>
+            <h2>{{ pub.title }}</h2>
             <p class="authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
             <p class="venue">{{ pub.venue }}</p>
             <div class="publication-links">
@@ -63,7 +64,7 @@
     {% if year_shown > 0 %}
       <section class="publication-year" data-publication-year aria-labelledby="publication-year-{{ year_group.name }}">
         <h2 id="publication-year-{{ year_group.name }}" class="publication-year-title">{{ year_group.name }}</h2>
-        <div class="publication-year-items">
+        <div class="publication-list publication-year-items">
           {{ year_publications }}
         </div>
       </section>

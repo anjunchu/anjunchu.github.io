@@ -285,7 +285,7 @@ img {
 
 .prose h2,
 .sidebar-block h2,
-.publication h3,
+.publication h2,
 .talk h2,
 .post-preview h2 {
   color: var(--ink);
@@ -399,13 +399,8 @@ img {
   margin-top: 18px;
 }
 
-.publication-list {
-  gap: 38px;
-}
-
 .publication-year {
-  display: grid;
-  gap: 16px;
+  display: block;
 }
 
 .publication-year[hidden] {
@@ -426,11 +421,6 @@ img {
   flex: 1;
   height: 1px;
   background: var(--line);
-}
-
-.publication-year-items {
-  display: grid;
-  gap: 18px;
 }
 
 .publication-filter-panel {
@@ -562,7 +552,7 @@ img {
   text-transform: uppercase;
 }
 
-.publication h3,
+.publication h2,
 .research-highlight h2,
 .talk h2,
 .post-preview h2 {
@@ -570,7 +560,7 @@ img {
   font-size: 1.28rem;
 }
 
-.publication h3 + p {
+.publication h2 + p {
   margin-top: 10px;
 }
 
