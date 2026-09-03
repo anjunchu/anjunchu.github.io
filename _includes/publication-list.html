@@ -22,37 +22,51 @@
     </div>
   </div>
 {% endif %}
+{% assign publications_by_year = site.data.publications | group_by: "year" %}
 <div class="publication-list" {% if include.filters %}data-publication-list{% endif %}>
-  {% for pub in site.data.publications %}
-    {% assign should_show = true %}
-    {% if include.selected and pub.selected != true %}
-      {% assign should_show = false %}
-    {% endif %}
-    {% if should_show and shown < limit %}
-      {% assign shown = shown | plus: 1 %}
-      <article
-        class="publication {% if pub.selected %}is-selected{% endif %}"
-        {% if include.filters %}
-          data-publication-item
-          data-selected="{% if pub.selected %}true{% else %}false{% endif %}"
-          data-groups="{% if pub.groups %}{{ pub.groups | join: ' ' }}{% endif %}"
+  {% for year_group in publications_by_year %}
+    {% assign year_shown = 0 %}
+    {% capture year_publications %}
+      {% for pub in year_group.items %}
+        {% assign should_show = true %}
+        {% if include.selected and pub.selected != true %}
+          {% assign should_show = false %}
         {% endif %}
-      >
-        <div class="publication-meta">
-          <span>{{ pub.year }}</span>
-          {% if pub.status %}<span>{{ pub.status }}</span>{% endif %}
+        {% if should_show and shown < limit %}
+          {% assign shown = shown | plus: 1 %}
+          {% assign year_shown = year_shown | plus: 1 %}
+          <article
+            class="publication {% if pub.selected %}is-selected{% endif %}"
+            {% if include.filters %}
+              data-publication-item
+              data-selected="{% if pub.selected %}true{% else %}false{% endif %}"
+              data-groups="{% if pub.groups %}{{ pub.groups | join: ' ' }}{% endif %}"
+            {% endif %}
+          >
+            <div class="publication-meta">
+              {% if pub.status %}<span>{{ pub.status }}</span>{% endif %}
+            </div>
+            <h3>{{ pub.title }}</h3>
+            <p class="authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            <p class="venue">{{ pub.venue }}</p>
+            <div class="publication-links">
+              {% if pub.doi %}<a href="{{ pub.doi }}">DOI</a>{% endif %}
+              {% if pub.arxiv %}<a href="{{ pub.arxiv }}">arXiv</a>{% endif %}
+              {% if pub.pdf %}<a href="{{ pub.pdf | relative_url }}">PDF</a>{% endif %}
+              {% if pub.supplement %}<a href="{{ pub.supplement | relative_url }}">Supp</a>{% endif %}
+              {% if pub.news %}<a href="{{ pub.news | relative_url }}">News</a>{% endif %}
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
+    {% endcapture %}
+    {% if year_shown > 0 %}
+      <section class="publication-year" data-publication-year aria-labelledby="publication-year-{{ year_group.name }}">
+        <h2 id="publication-year-{{ year_group.name }}" class="publication-year-title">{{ year_group.name }}</h2>
+        <div class="publication-year-items">
+          {{ year_publications }}
         </div>
-        <h2>{{ pub.title }}</h2>
-        <p class="authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-        <p class="venue">{{ pub.venue }}</p>
-        <div class="publication-links">
-          {% if pub.doi %}<a href="{{ pub.doi }}">DOI</a>{% endif %}
-          {% if pub.arxiv %}<a href="{{ pub.arxiv }}">arXiv</a>{% endif %}
-          {% if pub.pdf %}<a href="{{ pub.pdf | relative_url }}">PDF</a>{% endif %}
-          {% if pub.supplement %}<a href="{{ pub.supplement | relative_url }}">Supp</a>{% endif %}
-          {% if pub.news %}<a href="{{ pub.news | relative_url }}">News</a>{% endif %}
-        </div>
-      </article>
+      </section>
     {% endif %}
   {% endfor %}
 </div>
@@ -70,6 +84,7 @@
       var empty = list ? list.nextElementSibling : null;
       if (!list) return;
       var items = Array.prototype.slice.call(list.querySelectorAll("[data-publication-item]"));
+      var years = Array.prototype.slice.call(list.querySelectorAll("[data-publication-year]"));
 
       function showFor(button) {
         var type = button.getAttribute("data-filter-type");
@@ -77,6 +92,7 @@
         var visible = 0;
         buttons.forEach(function (item) {
           item.classList.toggle("is-active", item === button);
+          item.setAttribute("aria-pressed", item === button ? "true" : "false");
         });
         items.forEach(function (item) {
           var groups = (item.getAttribute("data-groups") || "").split(/\s+/);
@@ -86,6 +102,12 @@
           item.hidden = !match;
           if (match) visible += 1;
         });
+        years.forEach(function (year) {
+          var yearItems = Array.prototype.slice.call(year.querySelectorAll("[data-publication-item]"));
+          year.hidden = !yearItems.some(function (item) {
+            return !item.hidden;
+          });
+        });
         if (empty) empty.hidden = visible !== 0;
       }
 
@@ -94,6 +116,7 @@
           showFor(button);
         });
       });
+      if (buttons[0]) showFor(buttons[0]);
     })();
   </script>
 {% endif %}

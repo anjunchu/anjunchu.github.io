@@ -12,6 +12,7 @@
   groups:
     - theory-work
     - quantum-metrology
+    - cavity-qed
 - title: "Reconfigurable dissipative entanglement between many spin ensembles: from robust quantum sensing to many-body state engineering"
   authors: "**Anjun Chu**, Mikhail Mamaev, Martin Koppenhöfer, Ming Yuan, and Aashish A. Clerk"
   venue: "Physical Review X 16, 021047"

@@ -285,7 +285,7 @@ img {
 
 .prose h2,
 .sidebar-block h2,
-.publication h2,
+.publication h3,
 .talk h2,
 .post-preview h2 {
   color: var(--ink);
@@ -397,6 +397,40 @@ img {
   display: grid;
   gap: 18px;
   margin-top: 18px;
+}
+
+.publication-list {
+  gap: 38px;
+}
+
+.publication-year {
+  display: grid;
+  gap: 16px;
+}
+
+.publication-year[hidden] {
+  display: none;
+}
+
+.publication-year-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0;
+  color: var(--ink);
+  font-size: 1.75rem;
+}
+
+.publication-year-title::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+.publication-year-items {
+  display: grid;
+  gap: 18px;
 }
 
 .publication-filter-panel {
@@ -528,7 +562,7 @@ img {
   text-transform: uppercase;
 }
 
-.publication h2,
+.publication h3,
 .research-highlight h2,
 .talk h2,
 .post-preview h2 {
@@ -536,7 +570,7 @@ img {
   font-size: 1.28rem;
 }
 
-.publication h2 + p {
+.publication h3 + p {
   margin-top: 10px;
 }
 
