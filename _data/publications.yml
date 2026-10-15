@@ -1,3 +1,32 @@
+- title: "Experimental observation of Higgs oscillations and their power-law decay across pairing regimes in a cavity QED quantum simulator"
+  authors: "Chitose Maruko, Haoqing Zhang, Eliot A. Bohr, Leah Huzjak, **Anjun Chu**, Victor Gurarie, Chengyi Luo, Ana Maria Rey, James K. Thompson"
+  venue: "arXiv:2610.14171"
+  year: 2026
+  status: "Preprint"
+  doi:
+  arxiv: https://arxiv.org/abs/2610.14171
+  pdf:
+  supplement:
+  news:
+  selected: false
+  groups:
+    - theory-work
+    - quantum-metrology
+    - cavity-qed
+- title: "Pump-free microwave-optical Bell pair generation for teleportation-based quantum transduction"
+  authors: "Fangxin Li, Jaesung Heo, Zhaoyou Wang, Benjamin Pingault, Xingyu Gao, Tengyang Ruan, **Anjun Chu**, David D. Awschalom, Andrew N. Cleland, Andrew P. Higginbotham, Alexander A. High, Liang Jiang"
+  venue: "arXiv:2609.16364"
+  year: 2026
+  status: "Preprint"
+  doi: 
+  arxiv: https://arxiv.org/abs/2609.16364
+  pdf: 
+  supplement: 
+  news:
+  selected: false
+  groups:
+    - theory-work
+    - cavity-qed
 - title: "Collective three-body interactions enable a robust quantum speedup"
   authors: "Haoqing Zhang, **Anjun Chu**, Chengyi Luo, Chitose Maruko, Eliot A. Bohr, James K. Thompson, and Ana Maria Rey"
   venue: "Physical Review Research 8, L032025"
@@ -131,7 +160,7 @@
   news: https://www.colorado.edu/jila/2025/08/06/smoother-ticking-through-topology
   selected: false
   groups:
-    - theory work
+    - theory-work
     - quantum-simulation
     - quantum-metrology
     - optical-clock
