@@ -10,8 +10,8 @@
   news:
   selected: false
   groups:
-    - theory-work
-    - quantum-metrology
+    - experimental-collaborations
+    - quantum-simulation
     - cavity-qed
 - title: "Pump-free microwave-optical Bell pair generation for teleportation-based quantum transduction"
   authors: "Fangxin Li, Jaesung Heo, Zhaoyou Wang, Benjamin Pingault, Xingyu Gao, Tengyang Ruan, **Anjun Chu**, David D. Awschalom, Andrew N. Cleland, Andrew P. Higginbotham, Alexander A. High, Liang Jiang"
