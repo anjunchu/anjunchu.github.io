@@ -1,3 +1,18 @@
+- title: "Extracting information from a superradiant burst using simple measurements"
+  authors: "Federico Belliardo, **Anjun Chu**, Martin Koppenhöfer, and Aashish A. Clerk"
+  venue: "PRX Quantum, in press"
+  year: 2026
+  status: "In Press"
+  doi: https://doi.org/10.1103/1m4s-kky2
+  arxiv: https://arxiv.org/abs/2603.13130
+  pdf:
+  supplement:
+  news:
+  selected: false
+  groups:
+    - theory-work
+    - quantum-metrology
+    - open-quantum-systems
 - title: "Experimental observation of Higgs oscillations and their power-law decay across pairing regimes in a cavity QED quantum simulator"
   authors: "Chitose Maruko, Haoqing Zhang, Eliot A. Bohr, Leah Huzjak, **Anjun Chu**, Victor Gurarie, Chengyi Luo, Ana Maria Rey, James K. Thompson"
   venue: "arXiv:2610.14171"
@@ -60,21 +75,6 @@
     - quantum-simulation
     - open-quantum-systems
     - cavity-qed
-- title: "Extracting information from a superradiant burst using simple measurements"
-  authors: "Federico Belliardo, **Anjun Chu**, Martin Koppenhöfer, and Aashish A. Clerk"
-  venue: "arXiv:2603.13130"
-  year: 2026
-  status: "Preprint"
-  doi:
-  arxiv: https://arxiv.org/abs/2603.13130
-  pdf:
-  supplement:
-  news:
-  selected: false
-  groups:
-    - theory-work
-    - quantum-metrology
-    - open-quantum-systems
 - title: "Simulation of topological superconductors and their competing orders using photon-mediated interactions"
   authors: "**Anjun Chu**, Joyce Kwan, Eric Yilun Song, Seth Hew Peng Chew, James K. Thompson, and Ana Maria Rey"
   venue: "arXiv:2512.17889"
@@ -103,7 +103,7 @@
   news:
   selected: false
   groups:
-- title: "Realization of three and four-body interactions between momentum states in a cavity through optical dressing"
+- title: "Realization of three- and four-body interactions between momentum states in a cavity"
   authors: "Chengyi Luo, Haoqing Zhang, Chitose Maruko, Eliot A. Bohr, **Anjun Chu**, Ana Maria Rey, and James K. Thompson"
   venue: "Science 390, 925"
   year: 2025
@@ -256,7 +256,7 @@
     - quantum-metrology
     - optical-clock
     - cavity-qed
-- title: "Entangled matter-waves for quantum enhanced sensing"
+- title: "Entangled matter waves for quantum enhanced sensing"
   authors: "John D. Wilson, Jarrod T. Reilly, Haoqing Zhang, Chengyi Luo, **Anjun Chu**, James K. Thompson, Ana Maria Rey, and Murray J. Holland"
   venue: "Physical Review A 110, L041301"
   year: 2024
