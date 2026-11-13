@@ -1,11 +1,11 @@
 - title: "Extracting information from a superradiant burst using simple measurements"
   authors: "Federico Belliardo, **Anjun Chu**, Martin Koppenhöfer, and Aashish A. Clerk"
-  venue: "PRX Quantum, in press"
+  venue: "PRX Quantum 7, 043029"
   year: 2026
-  status: "In Press"
+  status: "Published"
   doi: https://doi.org/10.1103/1m4s-kky2
   arxiv: https://arxiv.org/abs/2603.13130
-  pdf:
+  pdf: /assets/pdfs/1m4s-kky2.pdf
   supplement:
   news:
   selected: false
